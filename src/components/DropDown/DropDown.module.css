@@ -1,0 +1,29 @@
+.selectWrapper {
+  position: relative;
+  font-size: 16px;
+
+  width: 100px;
+  z-index: 10;
+}
+
+.selectList {
+  position: absolute;
+  top: 1.3em;
+  width: 100%;
+
+  padding: 0 10px 10px 5px;
+
+  background-color: var(--c-primary);
+  color: var(--c-light);
+
+  animation: slideUp 0.3s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

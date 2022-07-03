@@ -1,0 +1,40 @@
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon svg > path,
+.icon div {
+	fill: #36597d;
+	color: #36597d;
+}
+
+.placeholder {
+
+}
+
+
+.input {
+  width: fit-content;
+
+  outline: none;
+  background-color: transparent;
+  border: none;
+  
+  font-size: 23px;
+  color: #36597d;
+}
+
+.input::placeholder {
+  font-size: 23px;
+  color: #36597d;
+}
+
+.input, .icon {
+  transition: all 0.4s ease;
+}

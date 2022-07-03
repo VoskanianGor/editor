@@ -1,0 +1,34 @@
+.addNewText {
+  position: absolute;
+  z-index: 200;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+
+  padding: 15px;
+  width: 70vw;
+  border-radius: 25px;
+  box-shadow: 1px 1px 0px 200vw #07151aa1;
+
+  left: calc(50% - 35vw);
+  top: 10%;
+}
+
+.center {
+  align-self: center;
+}
+
+.addFile svg > path {
+  fill: #36597d;
+}
+
+.addFile label {
+  display: flex;
+  color: #36597d;
+  font-size: 23px;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
